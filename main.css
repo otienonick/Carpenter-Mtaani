@@ -18,3 +18,37 @@ li a::after{
 li a:hover::after{
     width: 100%;
 }
+.card{
+    background: transparent;
+}
+
+ .btns a{
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    border: .1px solid #336600;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #000;
+    
+}
+  span{
+    background-color: #336600;
+    height: 100%;
+    width: 20%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 25px;
+    transition: .5s;
+    z-index: -1;
+}
+.btns a:hover span{
+    width: 100%;
+} 
+.btns p,h2{
+    color: #336600;
+}
+
