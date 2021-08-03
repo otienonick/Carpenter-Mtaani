@@ -1,0 +1,20 @@
+.navbar{
+    background:  #336600;
+}
+.navbar a{
+    color: #fff !important;
+    position: relative;
+}
+li a::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+li a:hover::after{
+    width: 100%;
+}
