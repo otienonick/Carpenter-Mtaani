@@ -24,6 +24,10 @@ li a:hover::after{
 .card p{
     font-size: 0.8rem;
 }
+.card img:hover{
+    filter: brightness(50%);
+
+}
 
  .myButton,.btns a{
     position: relative;
@@ -102,4 +106,14 @@ li a:hover::after{
 .up-btn i {
     display: inline-block;
     color: #fff;
+}
+
+
+
+/* Kabanis.html */
+/* .verify{
+    background: transparent;
+} */
+.verify>i{
+    color: #336600;
 }
