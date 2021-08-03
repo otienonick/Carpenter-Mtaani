@@ -1,0 +1,127 @@
+.navbar{
+    background:  #336600;
+}
+.navbar a{
+    color: #fff !important;
+    position: relative;
+}
+li a::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+li a:hover::after{
+    width: 100%;
+}
+.card{
+    background: transparent;
+}
+.card p{
+    font-size: 0.8rem;
+}
+.card img:hover{
+    filter: brightness(50%);
+
+}
+
+ .myButton,.btns a{
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    border: .1px solid #336600;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #000;
+    
+}
+.myButton{
+    color: #fff;
+    background-color: #336600;
+}
+.btns a>i{
+    color: white;
+    font-size: 1.2rem;
+}
+  span{
+    background-color: #336600;
+    height: 100%;
+    width: 15%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 25px;
+    transition: .5s;
+    z-index: -1;
+}
+.btns a:hover span{
+    width: 100%;
+} 
+.btns p,h2{
+    color: #336600;
+};
+
+.change button{
+    background: #336600 !important;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+}
+.finish{
+    background:#336600;
+    font-size: .8rem;
+    color: #fff !important;
+}
+
+::placeholder,#file{
+    font-size: .8rem;
+}
+.follow i{
+    padding: 0 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.tweet:hover{
+    color:rgba(29,161,242,1.00);
+}
+.fb:hover{
+    color: #385898;;
+}
+.ig:hover{
+    color:#d03b5c;
+}
+
+.up-btn {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    display: none;
+    background: #336600;
+    border: none;
+    border-radius: 50%;
+}
+
+.up-btn i {
+    display: inline-block;
+    color: #fff;
+}
+#message{
+    display: none;
+    color: #336600;
+}
+
+
+/* Other.html */
+
+.verify>i{
+    color: #336600;
+}
