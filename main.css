@@ -70,11 +70,18 @@ li a:hover::after{
 .change button{
     background: #336600 !important;
 }
-
+.download{
+    display: flex;
+    flex-direction: column;
+}
 .finish{
     background:#336600;
     font-size: .8rem;
     color: #fff !important;
+}
+
+::placeholder,#file{
+    font-size: .8rem;
 }
 .follow i{
     padding: 0 10px;
@@ -107,13 +114,14 @@ li a:hover::after{
     display: inline-block;
     color: #fff;
 }
+#message{
+    display: none;
+    color: #336600;
+}
 
 
+/* Other.html */
 
-/* Kabanis.html */
-/* .verify{
-    background: transparent;
-} */
 .verify>i{
     color: #336600;
 }
