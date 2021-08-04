@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS Section -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./main.css">
     <!-- JS Section -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -150,24 +150,30 @@
           <div class=" justify-content-center reduce">
           <form onsubmit="return false" id="myForm">
             <div class="mb-3 col">
-              <input type="text" class="form-control" id="name"  placeholder="Carpenters Name" oninvalid="this.setCustomValidity('Please fill in your name')" oninput="this.setCustomValidity('')"  required>
+              <input type="text" class="form-control" id="name"  placeholder="Carpenters Name">
+              <p id="error1">Please fill in your name!</p>
             </div>
             <div class="mb-3 col">
-              <input type="tel" class="form-control" id="phoneNumber"  placeholder="Phone Number" oninvalid="this.setCustomValidity('Please fill in your phone number')" oninput="this.setCustomValidity('')"  required>
+              <input type="tel" class="form-control" id="phoneNumber"  placeholder="Phone Number">
+              <p id="error2">Please add your Phone Number!</p>
+
             </div>
 
             <div class="mb-3 col">
-                <input type="text" class="form-control" id="location" placeholder="Location" oninvalid="this.setCustomValidity('Please fill in your location details')" oninput="this.setCustomValidity('')"  required>
+                <input type="text" class="form-control" id="location" placeholder="Location">
+                <p id="error3">Please add your location details!</p>
+
               </div>
               <div class="mb-3 col">
-                <input type="file" class="form-control" id="file" placeholder="choose file" oninvalid="this.setCustomValidity('Please add a file')" oninput="this.setCustomValidity('')"  required>
+                <input type="file" class="form-control" id="file" placeholder="choose file">
+
               </div>
         <div class="text-center">
             <button type="submit" onclick="validateForm()" class="myButton">Submit</button>
             </div>
           </form>
           </div>
-          <p id="message">Post sent ! Your  request has been received it will be posted upon approval by the admins.'</p>
+          <p id="message">Post sent ! Your  request has been received. It will be posted upon approval by the admins.'</p>
       </div>
       </div>
 
@@ -175,7 +181,7 @@
         <footer>
         <div class="container d-flex justify-content-around ">
             <div class="contact pt-3">
-              <h4 class="text-white">CONTACTS</h4>
+              <h4 class="text-white hoving">CONTACTS</h4>
               <p>elijah.tum@student.moringaschool.com</p>
               <p>maureen.ougo@student.moringaschool.com</p>
               <p>peter.wairimu@student.moringaschool.com</p>
@@ -184,9 +190,9 @@
             </div>
             <div class="follow pt-5">
                 <h4 class="text-white">Follow us </h4>
-                <a href="#"  target="_blank"><i class="bi bi-twitter tweet"></i>
-                    <a href="#" target="_blank"><i class="bi bi-facebook fb"></i>
-                        <a href="#" target="_blank"><i class="bi bi-instagram ig"></i>
+                <a href="#"  target="_blank"><i class="bi bi-twitter tweet"></i></a>
+                    <a href="#" target="_blank"><i class="bi bi-facebook fb"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-instagram ig"></i></a>
             </div>
             <div class="download pt-5 ">
               <a href="#"  target="_blank"> <img src="./assets/footer-logo/appstore.svg"  class="mb-2 img-fluid handles"></a>
@@ -199,7 +205,7 @@
     </div>
   
     <button class="btn btn-primary up-btn" data-scroll="up" type="button">
-      <i class="fa fa-chevron-up"></i>
+      <i class="bi bi-arrow-up-circle-fill"></i>
       </button>
   
   
