@@ -32,12 +32,8 @@ function validateForm(){
             if(myName!=''&& myNumber!=''&& myLocation !='' && myFile!=''){
             
                 $('#message').slideToggle(1500);
-                $('#name').val('');
-                $('#phoneNumber').val('');
-                $('#location').val('');
-                $('#file').val('');
-                $('.myButton').fadeOut(400);
-                $('.myBtn').slideToggle(1500);
+                $('.myButton').fadeOut();
+                $('.myBtn').fadeIn(2500);
             }
  
     };
