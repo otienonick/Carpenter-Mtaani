@@ -96,12 +96,18 @@ li a:hover::after{
 }
 .tweet:hover{
     color:rgba(29,161,242,1.00);
+    transition: .3s;
 }
 .fb:hover{
-    color: #385898;;
+    color: #385898;
+    transition: .3s;
+
+    
 }
 .ig:hover{
     color:#d03b5c;
+    transition: .3s;
+
 }
 
 .up-btn {
