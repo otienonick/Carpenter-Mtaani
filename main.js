@@ -36,9 +36,19 @@ function validateForm(){
                 $('#phoneNumber').val('');
                 $('#location').val('');
                 $('#file').val('');
+                $('.myButton').fadeOut(400);
+                $('.myBtn').slideToggle(1500);
             }
  
     };
+
+    $(document).ready(function() {
+    $('.myBtn').click(function(){
+        location.reload();
+
+    });
+});
+    
 
 // scroll up button
 
