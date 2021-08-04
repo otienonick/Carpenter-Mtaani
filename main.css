@@ -29,7 +29,7 @@ li a:hover::after{
 
 }
 
- .myButton,.btns a{
+ .myBtn,.myButton,.btns a{
     position: relative;
     overflow: hidden;
     background-color: transparent;
@@ -41,9 +41,12 @@ li a:hover::after{
     color: #000;
     
 }
-.myButton{
+.myButton,.myBtn{
     color: #fff;
     background-color: #336600;
+}
+.myBtn{
+    display: none;
 }
 .btns a>i{
     color: white;
