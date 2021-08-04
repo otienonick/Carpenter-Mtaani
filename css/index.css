@@ -1,0 +1,49 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navlist{
+    height: 80px !important;
+    width: 100%;
+    background-color: transparent;
+
+    
+}
+.navlist ul {
+    float: right;
+    margin-right: 30px;
+
+}
+
+.navlist ul li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 30px;
+    padding: 6px 13px;
+}
+
+.navlist ul li a.active,
+.navlist ul li a:hover{
+color: #336600;
+text-transform: 0.5s;
+text-decoration-line: underline;
+
+}
+.textone{
+    text-align: bottom;
+    font: size 300%; 
+    padding-top: 20%;
+    color: #336600 ;
+}
+.titleOne{
+    font-size: 600%;
+}
