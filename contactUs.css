@@ -3,7 +3,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .jumbotron {
     position: absolute;
     top: 100px;
-    left: 580px;
+    left: 690px;
+    align-items: center;
 }
 #form {
     position: absolute;
