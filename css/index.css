@@ -22,11 +22,12 @@ body{
     margin: 0 10px;
     display: inline-block;
     line-height: 80px;
+
 }
 
 .navlist ul li a {
     text-decoration: none;
-    color: wheat;
+
     font-size: 30px;
     padding: 6px 13px;
 }
@@ -39,11 +40,16 @@ text-decoration-line: underline;
 
 }
 .textone{
-    text-align: bottom;
-    font: size 300%; 
-    padding-top: 20%;
+    text-align: center;
+    font-size: 30px; 
+    padding-top: 10%;
     color: #336600 ;
 }
-.titleOne{
-    font-size: 600%;
+.textone,h1{
+    font-size: 250%;
+    
+}
+.btn{
+    float: right;
+    font-size: 50px;
 }
