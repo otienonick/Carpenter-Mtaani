@@ -1,44 +1,47 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-.jumbotron {
-    position: absolute;
-    top: 100px;
-    left: 690px;
-    align-items: center;
+#message  {
+    padding-bottom: 22%;
 }
-#form {
-    position: absolute;
-    width: 100%;
+.download{
+    display: flex;
+    flex-direction: column;
 }
-#name {
-    position: absolute;
-    top: 100px;
-    right: 200px;
-    border-radius: 2px;
+.finish{
+    background:#336600;
+    font-size: .8rem;
+    color: #fff !important;
 }
-#email {
-    position: absolute;
-    top: 100px;
-    left: 150px;
-    border-radius: 2px;
+::placeholder,#file{
+    font-size: .8rem;
 }
-#subject {
-    position: absolute;
-    top: 200px;
-    border-radius: 2px;
-    width: 550px;
-    left: -170px;
+.follow i{
+    padding: 0 5px;
+    font-size: 1.5rem;
+    color: #fff;
 }
-#send {
-    position: absolute;
-    top: 450px;
-    right: 117px;
-}
-#send {
-    background-color: #336600;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+.hoving p:hover{
     cursor: pointer;
 }
+.tweet:hover{
+    color:rgba(29,161,242,1.00);
+    transition: .3s;
+}
+.fb:hover{
+    color: #385898;
+    transition: .3s;
+}
+.ig:hover{
+    color:#d03b5c;
+    transition: .3s;
+}
+.myButton {
+    padding: 5px 20px;
+    border-radius: 25px;
+    background-color: #336600;
+    color: white;
+    outline: none;
+    border: none;
+}
+h1,label {
+    color: #336600;
+}
+
